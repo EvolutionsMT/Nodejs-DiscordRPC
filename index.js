@@ -1,5 +1,5 @@
 const { Client } = require("@xhayper/discord-rpc");
-const Config = require("./Data/Config.json");
+const Config = require("./Config.json");
 
 const client = new Client({
     clientId: Config.ClientID
